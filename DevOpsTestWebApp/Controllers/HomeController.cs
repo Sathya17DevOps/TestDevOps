@@ -10,6 +10,7 @@ namespace DevOpsTestWebApp.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Index";
             return View();
         }
 
