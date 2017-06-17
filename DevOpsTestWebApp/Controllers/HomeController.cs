@@ -15,7 +15,7 @@ namespace DevOpsTestWebApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page. yes it is application page.";
 
             return View();
         }
